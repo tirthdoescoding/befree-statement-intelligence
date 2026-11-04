@@ -7,12 +7,10 @@ venv/
 .venv/
 env/
 *.egg-info/
-dist/
 build/
 .eggs/
 *.log
 data/history.db
-data/sample_pdfs/
 models/*.pkl
 .env
 .DS_Store

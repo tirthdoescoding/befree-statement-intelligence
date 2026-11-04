@@ -12,7 +12,7 @@
 ---
 
 ## 🌐 Live Public Demo
-**Live Link:** [https://elizabeth-casinos-telling-asian.trycloudflare.com](https://elizabeth-casinos-telling-asian.trycloudflare.com)  
+**Live Link:** [https://retention-lbs-ctrl-blues.trycloudflare.com](https://retention-lbs-ctrl-blues.trycloudflare.com)  
 *(Interactive full-stack cloud instance running live without any warning or login required)*
 
 ---

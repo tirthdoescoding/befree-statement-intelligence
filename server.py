@@ -300,3 +300,10 @@ def download_sample_file(filename: str):
     if not file_path.exists():
         raise HTTPException(status_code=404, detail="Sample file not found")
     return FileResponse(path=str(file_path), filename=filename, media_type="application/pdf")
+
+from fastapi.staticfiles import StaticFiles
+
+# Serve built React frontend directly from FastAPI
+frontend_dist = Path(__file__).parent / "frontend" / "dist"
+if frontend_dist.exists():
+    app.mount("/", StaticFiles(directory=str(frontend_dist), html=True), name="frontend")

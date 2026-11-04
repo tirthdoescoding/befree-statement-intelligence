@@ -205,7 +205,16 @@ async def process_statements(
         )
 
         # Replace NaN with None for JSON serialization
-        records = merged_df.where(pd.notnull(merged_df), None).to_dict(orient="records")
+        merged_df = merged_df.fillna(value=None).replace([float('nan')], [None])
+        records = []
+        for r in merged_df.to_dict(orient="records"):
+            clean_r = {}
+            for k, v in r.items():
+                if pd.isna(v) or v != v:
+                    clean_r[k] = None
+                else:
+                    clean_r[k] = v
+            records.append(clean_r)
 
         return {
             "success": True,

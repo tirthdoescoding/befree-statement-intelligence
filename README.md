@@ -12,7 +12,7 @@
 ---
 
 ## 🌐 Live Public Demo
-**Live Link:** [https://distribution-external-thereby-belly.trycloudflare.com](https://distribution-external-thereby-belly.trycloudflare.com)  
+**Live Link:** [https://elizabeth-casinos-telling-asian.trycloudflare.com](https://elizabeth-casinos-telling-asian.trycloudflare.com)  
 *(Interactive full-stack cloud instance running live without any warning or login required)*
 
 ---

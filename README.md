@@ -12,7 +12,7 @@
 ---
 
 ## 🌐 Live Public Demo
-**Live Link:** [https://retention-lbs-ctrl-blues.trycloudflare.com](https://retention-lbs-ctrl-blues.trycloudflare.com)  
+**Live Link:** [https://frontend-lyart-ten-19.vercel.app](https://frontend-lyart-ten-19.vercel.app)  
 *(Interactive full-stack cloud instance running live without any warning or login required)*
 
 ---

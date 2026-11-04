@@ -1,0 +1,116 @@
+{
+  "rules": [
+    {
+      "category": "Salary",
+      "priority": 1,
+      "keywords": ["salary", "sal", "stipend", "payroll", "pay slip", "wages", "wage", "emolument", "remuneration", "basic pay", "hr credit", "employer"],
+      "patterns": ["SAL/", "SALARY/", "PAY/"],
+      "credit_only": true
+    },
+    {
+      "category": "ATM Withdrawal",
+      "priority": 2,
+      "keywords": ["atm", "cash withdrawal", "atw", "atm w/d", "atm wd"],
+      "patterns": ["ATM/", "ATM-"],
+      "debit_only": false
+    },
+    {
+      "category": "EMI / Loan",
+      "priority": 3,
+      "keywords": ["emi", "loan", "home loan", "car loan", "vehicle loan", "personal loan", "mortgage", "equated", "instalment", "installment", "ecs loan", "ach loan", "nach loan"],
+      "patterns": ["EMI/", "LOAN/", "ECS/LOAN"],
+      "debit_only": false
+    },
+    {
+      "category": "Rent",
+      "priority": 4,
+      "keywords": ["rent", "rental", "lease", "flat rent", "house rent", "room rent", "pgrent", "houserent"],
+      "patterns": [],
+      "debit_only": false
+    },
+    {
+      "category": "Food & Dining",
+      "priority": 5,
+      "keywords": ["swiggy", "zomato", "foodpanda", "dominos", "domino", "pizza", "burger king", "mcdonald", "mcdonalds", "kfc", "subway", "cafe", "coffee", "restaurant", "hotel", "dining", "food", "biryani", "dhaba", "barbeque", "bbq", "starbucks", "dunkin", "chaayos", "ccd", "bar & kitchen"],
+      "patterns": [],
+      "debit_only": true
+    },
+    {
+      "category": "Shopping",
+      "priority": 6,
+      "keywords": ["amazon", "flipkart", "myntra", "ajio", "nykaa", "meesho", "snapdeal", "shopclues", "tatacliq", "reliance digital", "croma", "jiomart", "d-mart", "dmart", "big bazaar", "pantaloons", "lifestyle", "westside", "mall", "shoppers", "h&m", "zara", "decathlon", "pepperfry", "urban ladder"],
+      "patterns": ["POS/", "ECOM/"],
+      "debit_only": true
+    },
+    {
+      "category": "Utilities",
+      "priority": 7,
+      "keywords": ["electricity", "electric bill", "power bill", "bescom", "msedcl", "tata power", "adani electricity", "water bill", "gas bill", "broadband", "internet", "wifi", "airtel", "jio", "vi ", "vodafone", "bsnl", "mtnl", "recharge", "dish tv", "tata sky", "d2h", "hathway", "fastag", "toll"],
+      "patterns": ["UTILITY/", "BILL/"],
+      "debit_only": false
+    },
+    {
+      "category": "Healthcare",
+      "priority": 8,
+      "keywords": ["hospital", "clinic", "doctor", "medical", "pharmacy", "medicine", "pharma", "apollo", "max hospital", "fortis", "practo", "1mg", "netmeds", "medline", "diagnostic", "lab test", "health", "dentist", "dental", "optician", "eye care", "physiotherapy"],
+      "patterns": [],
+      "debit_only": false
+    },
+    {
+      "category": "Transportation",
+      "priority": 9,
+      "keywords": ["uber", "ola", "rapido", "irctc", "railways", "train ticket", "flight", "airline", "air india", "indigo", "spicejet", "vistara", "goair", "bus ticket", "metro", "bmtc", "dtc", "auto", "cab", "fuel", "petrol", "diesel", "pump", "parking"],
+      "patterns": ["IRCTC/", "MTC/"],
+      "debit_only": false
+    },
+    {
+      "category": "Bank Charges",
+      "priority": 10,
+      "keywords": ["bank charge", "service charge", "processing fee", "annual fee", "maintenance charge", "locker charge", "cheque return", "bounce charge", "penalty", "fine", "late fee", "convenience fee", "transaction fee", "sms charge", "demat charge", "dp charge", "platform fee"],
+      "patterns": ["CHARGES/", "FEE/"],
+      "debit_only": true
+    },
+    {
+      "category": "Investment",
+      "priority": 11,
+      "keywords": ["mutual fund", "mf", "sip", "nse", "bse", "equity", "stock", "zerodha", "groww", "upstox", "angel broking", "icici direct", "hdfc securities", "kotak securities", "demat", "nps", "ppf", "elss", "ipo", "fd", "fixed deposit", "rd", "recurring deposit", "gold", "bond", "debenture"],
+      "patterns": ["SIP/", "MF/", "NSE/", "BSE/"],
+      "debit_only": false
+    },
+    {
+      "category": "Insurance",
+      "priority": 3,
+      "keywords": ["insurance", "lic", "policy", "premium", "term plan", "health insurance", "life insurance", "vehicle insurance", "motor insurance", "general insurance", "bajaj allianz", "hdfc ergo", "icici prudential", "tata aig", "reliance life"],
+      "patterns": ["LIC/", "INSUR/"],
+      "debit_only": false
+    },
+    {
+      "category": "Education",
+      "priority": 13,
+      "keywords": ["school fee", "college fee", "tuition", "education", "university", "institute", "coaching", "academy", "study", "course fee", "exam fee", "admission fee", "library", "hostel fee", "udemy", "coursera", "edtech", "byju", "vedantu", "unacademy"],
+      "patterns": ["EDUC/", "SCHOOL/"],
+      "debit_only": false
+    },
+    {
+      "category": "Interest",
+      "priority": 14,
+      "keywords": ["interest credit", "interest earned", "savings interest", "fd interest", "rd interest", "int cr", "interest income", "interest on deposit"],
+      "patterns": ["INT CR", "INT/CR"],
+      "credit_only": true
+    },
+    {
+      "category": "Transfers",
+      "priority": 15,
+      "keywords": ["neft", "rtgs", "imps", "upi", "transfer", "trf", "fund transfer", "account transfer", "online transfer", "net banking", "nb transfer", "mobile banking", "phonepe", "gpay", "google pay", "paytm", "bhim", "razorpay"],
+      "patterns": ["NEFT/", "RTGS/", "IMPS/", "UPI/", "TRF/"],
+      "debit_only": false
+    },
+    {
+      "category": "Business Transactions",
+      "priority": 16,
+      "keywords": ["gst", "invoice", "vendor payment", "supplier", "client", "consulting", "professional fee", "service payment", "b2b", "purchase order", "po payment", "advance payment"],
+      "patterns": [],
+      "debit_only": false
+    }
+  ]
+}

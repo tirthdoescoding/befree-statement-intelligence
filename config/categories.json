@@ -1,0 +1,40 @@
+{
+  "categories": [
+    "Salary",
+    "Food & Dining",
+    "Shopping",
+    "Rent",
+    "Utilities",
+    "Healthcare",
+    "Transportation",
+    "ATM Withdrawal",
+    "Bank Charges",
+    "EMI / Loan",
+    "Investment",
+    "Insurance",
+    "Education",
+    "Transfers",
+    "Business Transactions",
+    "Interest",
+    "Other / Uncategorized"
+  ],
+  "category_colors": {
+    "Salary": "#5B9B78",
+    "Food & Dining": "#D9A86C",
+    "Shopping": "#78B9A7",
+    "Rent": "#D97770",
+    "Utilities": "#3A8D85",
+    "Healthcare": "#C96C6C",
+    "Transportation": "#718096",
+    "ATM Withdrawal": "#172B36",
+    "Bank Charges": "#8B6F7D",
+    "EMI / Loan": "#A07850",
+    "Investment": "#4A7C6F",
+    "Insurance": "#6B7F9E",
+    "Education": "#7B9E87",
+    "Transfers": "#9E9E6B",
+    "Business Transactions": "#6B8E9E",
+    "Interest": "#8E9E6B",
+    "Other / Uncategorized": "#BDBDBD"
+  }
+}
